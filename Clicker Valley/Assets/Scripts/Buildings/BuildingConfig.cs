@@ -35,4 +35,5 @@ public class BuildingConfig : ScriptableObject
         return baseUpgradeCost *
             Mathf.Pow(costGrowthPerLevel, level - 1);
     }
+
 }
