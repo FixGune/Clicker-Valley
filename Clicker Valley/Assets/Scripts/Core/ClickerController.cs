@@ -72,10 +72,7 @@ public class ClickerController : MonoBehaviour
         return clickUpgradeLevel < maxClickUpgradeLevel;
     }
 
-    /// <summary>
-    /// Вызывается при нажатии кнопки добычи золота.
-    /// </summary>
-    public void OnClickButtonPressed()
+    public void OnBuildingClicked()
     {
         if (currencyManager == null)
         {
