@@ -21,8 +21,13 @@ public class BuildingConfig : ScriptableObject
     public float costGrowthPerLevel;
     public int maxLevel = 25;
 
-    [Header("Визуал")]
+    [Header("Визуал в 3D-сцене")]
+    [Tooltip("3D-префабы для сцены: тени, освещение, изометрия.")]
     public GameObject[] visualStages;
+
+    [Header("Спрайты для UI")]
+    [Tooltip("Статичные фото моделей для строк меню улучшений.")]
+    public Sprite[] uiSprites;
 
     public float GetIncome(int level)
     {
@@ -35,5 +40,4 @@ public class BuildingConfig : ScriptableObject
         return baseUpgradeCost *
             Mathf.Pow(costGrowthPerLevel, level - 1);
     }
-
 }

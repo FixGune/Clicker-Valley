@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992b8aa868ff6ed4fbc6399b2d9f4d63, type: 3}
+  m_Name: Fishman
+  m_EditorClassIdentifier: 
+  id: 3
+  displayName: Fishman
+  zoneId: 1
+  unlockCost: 0
+  baseGoldPerMinute: 1
+  goldGrowthPerLevel: 1
+  baseUpgradeCost: 1
+  costGrowthPerLevel: 1
+  maxLevel: 25
+  visualStages: []
+  uiSprites: []
